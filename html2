@@ -8,13 +8,23 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
-       </style>
-       
+    </style>
+  
     <title>Snackgram</title>
 </head>
 
 <body>
-    
+    <div class="instagram">
+        <header>
+            <div class="snackgramName">
+                Snackgram
+            </div>
+            <div class="search"></div>
+        </header>
+    </div>
+   
+
+
 </body>
 
 </html>
