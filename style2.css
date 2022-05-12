@@ -10,9 +10,9 @@ header {
     display: flex; /* Make content display in linefor that section */
     justify-content: space-between;/*add equal amount of space  */
     align-items: center;
-    padding: 10px 18px;
+    padding: 30px 18px;
     border-bottom: 1px solid rgba(219, 219, 219, 1);
-    /* background-color: black; */
+    background-color: black;
 }
 header .logo {
     height: 29px;
@@ -35,8 +35,214 @@ header .search {
 
 header .search input{
     height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(142, 9, 9, 0);
+    padding-left: 10px;
+    font-size: 15px;
+    color: black;
 }
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a img{
+    width: 22px;
+    height: 22px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+header nav ul li a i {
+    font-size: 22px;
+    color: rgb(142, 9, 9);
+}
+
 
 .snackgramName{
     font-family: 'Jacques Francois Shadow', cursive;
+    color: rgb(142, 9, 9);;
+    font-size: 22px;
+    padding: 30px 18px;
+}
+
+/* Stories section Left Side */
+
+section {
+    padding: 30px 18px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.left{
+    width: 65%;
+}
+
+.story {
+    display: flex;
+    padding: 16px;
+    border-radius: 4px ;
+
+}
+
+.story .stories {
+    width: 17%;
+
+}
+
+.story .stories a img {
+    border-radius: 50%;
+    border: 2px solid rgb(148, 9, 13);
+    padding: 1px;
+    object-fit: cover;
+    justify-content: space-between;
+    
+}
+
+.story .stories p{
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    
+}
+
+/* Post section */
+
+.posts {
+    margin: 25px 0;
+    background-color: rgba(142, 9, 9, 0.541); /*fix color */
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+.posts .username {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.posts .username .feedPost {
+    display: flex;
+    align-items: center;
+   
+}
+
+.posts .username .feedPost .image img {
+ border-radius: 50px;
+ object-fit: contain;
+
+}
+
+.posts .username .feedPost .details .name {
+    font-weight: bold;
+    padding-left: 15px;
+    color: rgba(142, 9, 9, 0.895); /*fix color */
+}
+
+.posts .post-content img {
+    object-fit: cover;
+}
+
+.posts .post-engage {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.posts .post-engage i {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.posts .post-engage .save-engage {
+    font-size: 22px;
+}
+
+.posts .post-engage-footer {
+    padding: 0 16px 16px 16px;
+}
+
+.posts .post-engage-footer p {
+    margin-bottom: 3px;
+}
+
+.posts .post-engage-footer .likes {
+    margin-bottom: 8px;
+}
+
+.posts .post-engage-footer .name {
+    font-weight: bold;
+}
+
+.posts .post-engage-footer span{
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.posts .post-engage-footer .time-posted{
+    font-size: 10px;
+}
+
+/* add comment section */
+
+.posts .add-comment {
+    padding: 16px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.posts .add-comment .left {
+    display: flex;
+    margin-right: 15px;
+    
+}
+
+.posts .add-comment .left i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+ 
+.posts .add-comment .left input {
+    width: 100%;
+    outline: none;
+    border: none;
+} 
+
+.postd .add-comment .right {
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Right Side / Sugguestions */
+.right{
+    width: 35%;
 }
