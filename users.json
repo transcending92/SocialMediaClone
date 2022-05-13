@@ -1,0 +1,11 @@
+{
+   "users" : {
+        "username" : "CodemaniaChica_92",
+        "password" : "Codeexample1",
+        "nickname" : "Nene",
+        "posts" :{
+            "name": "Melanie C",
+            "content": "Move in silence! Be humble! && Dont fumble the bag!"
+        }
+    }
+}

@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -58,6 +59,7 @@ header nav ul li a img{
     height: 22px;
     border-radius:50%;
     object-fit: cover;
+
 }
 
 header nav ul li a i {
@@ -65,11 +67,7 @@ header nav ul li a i {
     color: rgb(170, 11, 11);
 }
 
-
-
-
 /* Stories section Left Side */
-
 section {
     padding: 30px 18px;
     background-color: black;
@@ -136,7 +134,6 @@ section {
 .posts .username .feedPost .image img {
  border-radius: 50px;
  object-fit: cover;
-
 }
 
 .posts .username .feedPost .details .name {
@@ -150,6 +147,9 @@ section {
 
 .posts .post-content img {
     object-fit: cover;
+    width: 100%;
+    height: auto;
+    
 }
 
 .posts .post-engage {
@@ -309,5 +309,10 @@ section {
 
 .sug-title .sug-right p {
     color:rgb(237, 26, 26);
-  
+}
+
+@media (max-width:992px) {
+    header{
+        padding: 10px 20px;
+    }
 }
