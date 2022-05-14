@@ -1,6 +1,6 @@
 {
-    "Melanie" : {
-            "username" : "CodemaniaChica_92",
+    "CodemaniaChica_92" : {
+            "name" : "Melanie Campbell",
             "password" : "Codeexample1",
             "nickname" : "Nene",
             "posts" :[{
@@ -32,40 +32,72 @@
                     }
                 }
                 ]},
-                "Melanie" : {
-                    "username" : "CodemaniaChica_92",
-                    "password" : "Codeexample1",
-                    "nickname" : "Nene",
-                    "posts" :[{
-                        "image" : "Mel3.jpg",
-                        "time" : "12:00:00",
-                        "content": "Move in silence! Be humble! && Dont fumble the bag!",
-                        "likes" : "12,345",
-                        "comments" : {
-                            "username" : "Precious",
-                            "comment" : "Nice photo"
+     "Livingmybestlife" : {
+            "Name" : "Melissa McCarthy",
+            "password" : "Codeexample2",
+            "nickname" : "Lissa",
+            "posts" :[{
+                "image" : "melpro.jpg",
+                "time" : "18:32:02",
+                "content": "Dress it up or dress it down, I'm always the best in town",
+                "likes" : "12,345",
+                "comments" : {
+                        "username" : "tracncingnene",
+                        "comment" : "Nice photo"
                         }
-                    },{
-                        "image" : "Mel4.jpg",
-                        "time" : "21:40:12",
-                        "content": "Yes to the dress",
-                        "likes" : "125",
-                        "comments" : {
-                            "username" : "KingMe",
-                            "comment" : "Hi, friend"
+         },{
+                "image" : "panamabal.jpg",
+                "time" : "04:40:42",
+                "content": "Traveling is my best friend",
+                "likes" : "125",
+                "comments" : {
+                        "username" : "libraQueen",
+                        "comment" : "Mine too!!!"
+                 }
+         },{
+                "image" : "unnamed.jpg",
+                "time" : "11:11:11",
+                "content": "Take me wherever you go!",
+                "likes" : "12,345",
+                "comments" : {
+                        "username" : "_Hi_lady_",
+                        "comment" : "Take me with you"
+             }
+         }
+     ]},
+        "_Hi_Lady_" : {
+            "Name" : "Casa Miga",
+            "password" : "Codeexample3",
+            "nickname" : "",
+            "posts" :[{
+                "image" : "melpretty.jpg",
+                "time" : "10:00:02",
+                "content": "Blame it on the...",
+                "likes" : "200",
+                "comments" : {
+                        "username" : "tracncingnene",
+                        "comment" : "Nice photo"
                         }
-                    },{
-                        "image" : "Mel5.jpg",
-                        "time" : "2:35:57",
-                        "content": "I love me always",
-                        "likes" : "12,345",
-                        "comments" : {
-                            "username" : "SameThingDifferentDay",
-                            "comment" : "Cool beans"
-                            }
-                        }
-                        ]}
-
+        },{
+                "image" : "mel6.jpg",
+                "time" : "03:03:20",
+                "content": "SMile for me one time for the one time",
+                "likes" : "20,873",
+                "comments" : {
+                        "username" : "libraQueen",
+                        "comment" : "Nice Smile!!!"
+                }
+        },{
+                "image" : "melsax1.jpg",
+                "time" : "11:11:11",
+                "content": "My purple lover",
+                "likes" : "12,345",
+                "comments" : {
+                        "username" : "ForwardMovement",
+                        "comment" : "You play the saxophone? Nice!"
+            }
+        }
+    ]}
 
 
 
