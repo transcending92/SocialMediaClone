@@ -7,6 +7,10 @@
 
 }
 
+.loginPage {
+    display: none;
+}
+
 header {
     display: flex; /* Make content display in linefor that section */
     justify-content: space-between;/*add equal amount of space  */
