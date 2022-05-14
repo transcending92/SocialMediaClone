@@ -17,27 +17,6 @@ window.addEventListener('load', () => {
             alert("Invalid username or password!");
      }
     
-
-//Create post
-
-//Edit post 
-
-//Delete post
-
-//Add comment
-
-//Edit comment
-
-//Delete comment
-
-//switch account/Log out of page and return to login 
-
-
-
-
-
-
-
 })
 
 
