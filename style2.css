@@ -368,6 +368,7 @@ section {
     margin-top: 15px;
     position: fixed;
     right: -15px;
+    cursor: pointer;
 }
 
 .right .main-profile {
@@ -407,10 +408,11 @@ section {
      padding-right: 50px;
  }
 
+
+
  .suggestions p {
     margin-right: 90px;
-    
-
+    cursor: pointer;
 } 
 
 .sug-title {
@@ -428,8 +430,7 @@ section {
 .sug-title .sug-left .image img {
     border-radius: 50%;
     margin-right: 15px;
-    object-fit: cover;
-   
+    object-fit: cover;  
 }
  
 .sug-title .sug-left .details .name {
@@ -448,7 +449,9 @@ section {
 
 .sug-title .sug-right p {
     color:rgb(237, 26, 26);
+    cursor: pointer;
 }
+
 
 @media (max-width:992px) {
     header{
