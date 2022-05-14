@@ -1,11 +1,100 @@
 {
-   "users" : {
-        "username" : "CodemaniaChica_92",
-        "password" : "Codeexample1",
-        "nickname" : "Nene",
-        "posts" :{
-            "name": "Melanie C",
-            "content": "Move in silence! Be humble! && Dont fumble the bag!"
-        }
-    }
-}
+    "Melanie" : {
+            "username" : "CodemaniaChica_92",
+            "password" : "Codeexample1",
+            "nickname" : "Nene",
+            "posts" :[{
+                "image" : "Mel3.jpg",
+                "time" : "12:00:00",
+                "content": "Move in silence! Be humble! && Dont fumble the bag!",
+                "likes" : "12,345",
+                "comments" : {
+                    "username" : "Precious",
+                    "comment" : "Nice photo"
+                }
+            },{
+                "image" : "Mel4.jpg",
+                "time" : "21:40:12",
+                "content": "Yes to the dress",
+                "likes" : "125",
+                "comments" : {
+                    "username" : "KingMe",
+                    "comment" : "Hi, friend"
+                }
+            },{
+                "image" : "Mel5.jpg",
+                "time" : "2:35:57",
+                "content": "I love me always",
+                "likes" : "12,345",
+                "comments" : {
+                    "username" : "SameThingDifferentDay",
+                    "comment" : "Cool beans"
+                    }
+                }
+                ]},
+                "Melanie" : {
+                    "username" : "CodemaniaChica_92",
+                    "password" : "Codeexample1",
+                    "nickname" : "Nene",
+                    "posts" :[{
+                        "image" : "Mel3.jpg",
+                        "time" : "12:00:00",
+                        "content": "Move in silence! Be humble! && Dont fumble the bag!",
+                        "likes" : "12,345",
+                        "comments" : {
+                            "username" : "Precious",
+                            "comment" : "Nice photo"
+                        }
+                    },{
+                        "image" : "Mel4.jpg",
+                        "time" : "21:40:12",
+                        "content": "Yes to the dress",
+                        "likes" : "125",
+                        "comments" : {
+                            "username" : "KingMe",
+                            "comment" : "Hi, friend"
+                        }
+                    },{
+                        "image" : "Mel5.jpg",
+                        "time" : "2:35:57",
+                        "content": "I love me always",
+                        "likes" : "12,345",
+                        "comments" : {
+                            "username" : "SameThingDifferentDay",
+                            "comment" : "Cool beans"
+                            }
+                        }
+                        ]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            }
+        

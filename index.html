@@ -17,19 +17,16 @@
 <body>
 <!--Login page-->
 
-    <div class="center">
+    <div class="center" id="center">
         <h1>Snackgram</h1>
-        <form method="post" onsubmit="validateUserCreds()">
+        <form id="form" method="GET">
             <div class="txt_field">
-                <input type="text" required>
-                <label>Phone number, username, email</label>
+                <input type="text" id="username" placeholder="Phone number, username, or email">
+                <label></label>
             </div>
             <div class="txt_field">
-                <input type="password" required>
-                <label>Password</label>
-            </div>
-            <div class="forgot">
-                Forgot Password?
+                <input type="password" id="password" placeholder="Password">
+                <label></label>
             </div>
             <input type="submit" value="Log in">
             <div class="or">
@@ -47,8 +44,8 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="./main.js"></script>
-    <script type="text/javascript" src="./nav.js"></script>
+    <script src="./main.js"></script>
+    <script src="./nav.js"></script>
 
 </body>
 

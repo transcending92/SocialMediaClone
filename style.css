@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Jacques Francois', serif;
-    background: rgb(211, 172, 172);  
+    background: black;
     height: 100vh;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ form .txt_field {
 
 .txt_field {
     width: 100%;
-     font-size: 10px;
+    font-size: 10px;
     border: none;
     background: none;
     outline: none;
@@ -66,7 +66,7 @@ form .txt_field {
     border: none;
     background: none;
     outline: none;
- height: 100%;
+    height: 100%;
 } 
 
 .txt_field label {
